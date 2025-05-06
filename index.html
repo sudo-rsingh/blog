@@ -157,6 +157,24 @@
                 margin-top: 20px;
             }
         }
+        .writing-item {
+            /* existing styles remain */
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .writing-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .project-box {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .project-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
     </style>
 </head>
 <body>
@@ -168,7 +186,7 @@
         <div class="main-content">
             <div class="project-box" onclick="location.href='./blog/machine-learning-starter-guide.html'" style="cursor: pointer;">
                 <h3>Machine Learning Starter Guide</h3>
-                <p>Date: March 30, 2024</p>
+                <p>March 30, 2024</p>
                 <p>Unleashing the Power of Data: A Beginner's Journey into Machine Learning</p>
             </div>
             <div class="project-box">
