@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capturing Basic Market Profits</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background-color: #f9f9f9;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            color: #333;
+            font-weight: normal;
+        }
+
+        p {
+            text-align: justify;
+        }
+        
+        .container {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        
+        .main-content {
+            flex: 3;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+        }
+        
+
+        
+        .sidebar {
+            flex: 1;
+            border-left: 2px dashed #333;
+            padding-left: 20px;
+        }
+        
+        .sidebar h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #333;
+        }
+        
+        .writing-item {
+            border: 2px solid #333;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #fff;
+        }
+        
+        .writing-item h4 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        
+        .writing-item p {
+            font-size: 0.85rem;
+            line-height: 1.4;
+            color: #555;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .project-featured {
+                grid-column: span 1;
+            }
+            
+            .sidebar {
+                border-left: none;
+                border-top: 2px dashed #333;
+                padding-left: 0;
+                padding-top: 20px;
+                margin-top: 20px;
+            }
+        }
+        .post-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .post-header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+        }
+        
+        .post-header h2 {
+            font-size: 1.4rem;
+            color: #555;
+            font-weight: normal;
+            margin-bottom: 15px;
+        }
+        
+        .post-header .date {
+            color: #777;
+            font-style: italic;
+        }
+        
+        .post-content {
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .post-content p {
+            margin-bottom: 20px;
+        }
+        
+        .post-content h2 {
+            margin: 30px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        .post-content h3 {
+            margin: 25px 0 15px;
+        }
+        
+        .post-content ul, .post-content ol {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .post-content li {
+            margin-bottom: 5px;
+        }
+        
+        .post-content blockquote {
+            border-left: 4px solid #ccc;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #f7f7f7;
+            font-style: italic;
+        }
+        
+        .post-content img {
+            max-height: 100px;
+            margin: 20px 0;
+            display: block;
+        }
+        
+        .post-content a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        
+        .post-content a:hover {
+            text-decoration: underline;
+        }
+        
+        .post-content code {
+            background-color: #f0f0f0;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        
+        .post-content pre {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+        .divider {
+            border-top: 1px solid #ddd;
+            margin: 30px 0;
+        }
+        .resource-section {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        .author-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>nest of random birds</h1>
+    </header>
+    
+    <div class="container">
+        <div class="main-content">
+
+            <h1>Capturing Basic Market Profits</h1>
+            <h2>Making massive profits in stock market is a very easy thing of basic pattern recognition.</h2>
+            <p class="date">May 06, 2025</p>
+
+            <div class="post-content">
+                <p>
+                    I have been investing in stock market for more than 5 years now and have been studing global markets
+                    for more than 8 years now. This early age obsession with stock market was mostly driven by greed and
+                    a possibility of getting rich quickly. While this can be considered a bad thing but overtime it had
+                    made sure that I have always made good profits while not being exposed to any major risk. This blog
+                    will majorly cover about fundamental and value investing, which I have used for all the gains overtime.
+                </p>
+                
+                <blockquote>
+                    <p>"Be fearful when others are greedy and greedy when others are fearful." — Warren Buffett</p>
+                </blockquote>
+                
+                <h2>Introduction</h2>
+
+                <p>
+                    If I said that I only follow that quote and invest based on that, that would be very foolish and outright
+                    a major lie which can cause major financial damage to the follower. I will take some time and explain the
+                    quote by Buffet, he essentially mean there that when people are selling and the price of stock is crashing
+                    we should buy at that time and vice versa. But is it a sound advice to just but anything which that majority
+                    people are being warry of, that would be dumb on multiple levels. I will illustrate an example with this
+                    same advice working and an example when this advice is not working in upcomming sections.
+                    <br>
+                    A very thorough analysis is always required before making any purchage or sale of stocks which should not
+                    be neglected under any circumstances. New and active investors have a tendency of making fast purchages on
+                    identifying a good opportunity, while it is suggested that we launch towards a good chance it is not uncommon
+                    to see that many good purchages fail when we do things haistly, this can be very well explained by the
+                    current market conditions where we can see that the NIFTY50 is going at the top but the overall market is down
+                    and can even be said that it is in miserable condition. Some people might think of this as an opportunity
+                    while others might think of it as a major obstacle. My stance over this is much more complicated than these
+                    two options, I see it as a opportunity but not a opportunity to make money but an opportunity to learn how
+                    to make money, this situation is a common trend of the market which happens over 15-20 years time frame and
+                    there is so much to learn from it because there are a plenty of pit falls which are dug by the market and
+                    any untrained person who wants to make quick money will fall in it.
+                </p>
+
+                <h2>Escaping the high charges of the brokers</h2>
+
+                <p>
+                    This sections will matter more to the people who might be involved in day trading, options or future trading.
+                    Regardless I felt that this is an important thing which normal people who just want to do delivery trade
+                    should also be aware of. In earlier time when the orders used to be placed by human interventions there used
+                    to be human brokers and they charged absurd prices and many time recommended stocks with frodulant fundamentals.
+                    This majorly stopped when discount brokers were introduced, they did not have such a large staff so they could
+                    offer the placing of order with very low charges. Even then I would always say to go to the broker who gives
+                    the lowest charges. One thing which you will notice when you try out multiple brokers is that even when they say
+                    that they charge 0 brokrage fee there is still difference between the total fee of different brokers.
+                    <br>
+                    Now some of the new traders might be thinking that anyways brokrage fee is a small part of there total investment
+                    and it doesnot matter in the long run
+                </p>
+                
+                <ol>
+                    <li>python</li>
+                    <li>Numpy</li>
+                    <li>Pandas and Matplotlib</li>
+                    <li>Sklearn</li>
+                    <li>Tensorflow / PyTorch — implementation know-how</li>
+                    <li>Mathematics</li>
+                </ol>
+                
+                <div class="divider"></div>
+                
+                <h3>Python</h3>
+                
+                <img src="https://www.python.org/static/img/python-logo.png" alt="Python Logo">
+                
+                <p><strong>Python</strong> is a general-purpose, high-level programming language that is easy to learn and use. It is often used for web development, data science, and machine learning. Python has a large and active community, and there are many resources available to help you learn the language.</p>
+                
+                <h4>Some of the benefits of learning Python:</h4>
+                
+                <ul>
+                    <li>It is easy to learn and use.</li>
+                    <li>It is powerful and versatile.</li>
+                    <li>It has a large and active community.</li>
+                    <li>It is free and open-source.</li>
+                </ul>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://www.youtube.com/playlist?list=PLKnIA16_Rmvb1RYR-iTA_hzckhdONtSW4">100 Days of Python Programming — CampusX</a></li>
+                        <li><a href="https://www.youtube.com/playlist?list=PLKnIA16_Rmvb1RYR-iTA_hzckhdONtSW4">Python in 100 Seconds — FireShip</a></li>
+                        <li><a href="https://www.python.org/">Official Python Site</a></li>
+                        <li><a href="https://books.goalkicker.com/PythonBook/">Free Python Programming Book (goalkicker.com)</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>Numpy</h3>
+                
+                <img src="https://numpy.org/images/logo.svg" alt="NumPy Logo">
+                
+                <p>Nearly every scientist working in Python draws on the power of <strong>NumPy</strong>.</p>
+                
+                <p>NumPy brings the computational power of languages like C and Fortran to Python, a language much easier to learn and use. With this power comes simplicity: a solution in NumPy is often clear and elegant.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://numpy.org/">NumPy Website</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=QUT1VHiLmmI">Python NumPy Tutorial for Beginners — FreeCodeCamp</a></li>
+                        <li><a href="https://numpy.org/learn/">NumPy Learn</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>Pandas</h3>
+                
+                <img src="https://pandas.pydata.org/docs/_static/pandas.svg" alt="Pandas Logo">
+                
+                <p><strong>Pandas</strong> is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation tool, built on top of the Python programming language.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://pandas.pydata.org/">pandas — Python Data Analysis Library (pydata.org)</a></li>
+                        <li><a href="https://pandas.pydata.org/">Pandas & Python for Data Analysis by Example — Full Course for Beginners — FreeCodeCamp</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>Matplotlib</h3>
+                
+                <img src="https://matplotlib.org/_static/images/documentation.svg" alt="Matplotlib Logo">
+                
+                <p><strong>Matplotlib</strong> is a comprehensive library for creating static, animated, and interactive visualizations in Python. <strong>Matplotlib</strong> makes easy things easy and hard things possible.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://matplotlib.org/">MatplotLib Official Site</a></li>
+                        <li><a href="https://matplotlib.org/stable/tutorials/introductory/quick_start.html">Quick start guide — Matplotlib 3.7.2 documentation</a></li>
+                        <li><a href="https://matplotlib.org/stable/tutorials/introductory/quick_start.html">Matplotlib Full Course — Data Science Fundamentals — NeuralNine</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>SkLearn</h3>
+                
+                <img src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" alt="Scikit-learn Logo">
+                
+                <p><strong>Scikit-learn</strong> is a free and open-source machine learning library for the Python programming language. It provides a range of supervised and unsupervised learning algorithms for tasks such as classification, regression, and clustering. The library is built on top of NumPy, SciPy, and matplotlib. <strong>Scikit-learn</strong> is widely used in academia and industry alike for developing machine learning models.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://www.youtube.com/playlist?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH">100 Days of Machine Learning — CampusX</a></li>
+                        <li><a href="https://scikit-learn.org/stable/">scikit-learn</a></li>
+                        <li><a href="https://scikit-learn.org/stable/getting_started.html">Getting Started — scikit-learn 1.3.0 documentation</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>PyTorch</h3>
+                
+                <img src="https://discuss.pytorch.org/uploads/default/original/2X/3/35226d9fbc661ced1c5d17e374638389178c3176.png" alt="PyTorch Logo">
+                
+                <p><strong>PyTorch</strong> is a powerful and versatile framework that caters to both beginners and experienced researchers in the field of machine learning and artificial intelligence. Its dynamic computation graph, GPU acceleration, and emphasis on flexibility make it a preferred choice for building and experimenting with various types of machine-learning models.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li><a href="https://www.youtube.com/playlist?list=PLyMom0n-MBroupZiLfVSZqK5asX8KfoHL">Deep Learning with PyTorch: Zero to GANs — Jovian</a></li>
+                        <li><a href="https://pytorch.org/">PyTorch Official Site</a></li>
+                    </ol>
+                </div>
+                
+                <div class="divider"></div>
+                
+                <h3>Mathematics</h3>
+                
+                <p>First Year College maths is very important for basics.</p>
+                
+                <div class="resource-section">
+                    <h4>Resources:</h4>
+                    <ol>
+                        <li>An Introduction to Statistical Learning — Book</li>
+                        <li>Ncert Class-12 — Book</li>
+                    </ol>
+                </div>
+                
+                <p>Thanks for Reading, Readers are Leaders.</p>
+                
+                <div class="divider"></div>
+                
+                <div class="author-section">
+                    <p><strong>Author</strong> - Singh, Rakshit Kr.<br>
+                    <strong>Mail</strong> - rakshitsingh421@gmail.com<br>
+                    <strong>LinkedIn</strong> - <a href="https://www.linkedin.com/in/rakshit-singh-ai/">https://www.linkedin.com/in/rakshit-singh-ai/</a><br>
+                    <strong>X</strong> - <a href="https://x.com/RSINGH54369249">https://x.com/RSINGH54369249</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sidebar">
+            <h2>Interesting Writings</h2>
+            <div class="writing-item">
+                <h4>The Silent Flight</h4>
+                <p>Exploring how owl feathers create nearly soundless flight and what we can learn from their design.</p>
+            </div>
+            <div class="writing-item">
+                <h4>Memory Maps</h4>
+                <p>How migratory birds remember complex routes spanning thousands of miles without GPS.</p>
+            </div>
+            <div class="writing-item">
+                <h4>Colors We Cannot See</h4>
+                <p>Bird vision extends into the ultraviolet spectrum, revealing patterns invisible to humans.</p>
+            </div>
+            <div class="writing-item">
+                <h4>Language of Crows</h4>
+                <p>Decoding the sophisticated communication system of corvids and their remarkable problem-solving abilities.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
